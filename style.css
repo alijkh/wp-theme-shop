@@ -1,0 +1,44 @@
+/*
+Theme Name: Ermile
+Author: Javad Evazzadeh
+Author URI: https://evazzadeh.com
+Description: This WordPress theme is 100% responsive blah blah...
+Version: 1.1
+Tags: gold, one-column, left-sidebar, responsive-grid, etc
+*/
+
+body { background-color: #eee;direction: rtl;}
+header {text-align: center; background-color: #ddd; }
+#delimiter { clear: both; }
+footer {text-align: center;background-color: #CECECE;margin-top: 100px;}
+footer a{color:#092B40;}
+footer p{margin:0;}
+.title { font-size: 11pt; font-family: verdana; font-weight: bold; }
+
+img{
+	max-width: 100%!important;
+}
+img.size-large{
+width: 100%;
+}
+
+img.attachment-thumbnail{float: left;}
+.current-menu-item{
+	background-color: #ccc
+}
+
+header ul li{display: inline-block;padding: 10px 30px;font-size: 1.5em}
+
+aside .widget h3{
+	margin-top: 50px;
+	background-color: #ddd
+}
+.widget a{
+	padding: 5px 10px;
+    display: block;
+}
+.widget a:hover{
+	background-color: #ddd;
+}
+
+
